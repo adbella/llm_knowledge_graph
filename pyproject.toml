@@ -1,0 +1,18 @@
+[project]
+name = "llm-knowledge-graph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.4.10",
+    "langchain>=1.0.7",
+    "langchain-google-genai>=3.0.3",
+    "networks>=0.3.7",
+    "networkx>=3.5",
+    "python-dotenv>=1.2.1",
+    "pyvis>=0.3.2",
+    "streamlit>=1.51.0",
+    "streamlit-agraph>=0.0.45",
+]
